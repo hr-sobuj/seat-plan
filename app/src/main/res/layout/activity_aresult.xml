@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".aresult">
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center">
+
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No."
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+
+                />
+
+            <TextView
+                android:id="@+id/roll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_margin="0dp"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Building Name"
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/building"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_margin="0dp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room No."
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/room"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/text_border"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="0dp"
+                />
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exam Date"
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/text_border"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="0dp"
+                />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exam Time"
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/text_border"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="0dp"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shift"
+                android:background="@drawable/text_border"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/shift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/text_border"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="0dp"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/search_again"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Search again"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#00BFA5"
+        />
+
+
+</LinearLayout>

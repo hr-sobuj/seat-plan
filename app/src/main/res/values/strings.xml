@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SeatPlan</string>
+    <string name="ob">এম.এ ওয়াজেদ ভবন</string>
+    <string name="a1">একাডেমিক ১</string>
+    <string name="a2">একাডেমিক ২</string>
+    <string name="scl">হাবিপ্রবি ইস্কুল</string>
+    <string name="p">PM</string>
+    <string name="a">AM</string>
+</resources>
